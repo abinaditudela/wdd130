@@ -10,7 +10,7 @@
     --paragraph-font: "Oswald", sans-serif;;
 
     --nav-background-color: var(--primary-color);
-    --nav-link-color: var(--secondary-color);
+    --nav-link-color: hsla(0,0%,100%,1);
     --nav-hover-link-color: rgba(0, 0, 0, 0.626);
     --nav-hover-background-color: var(--accent1-color);
 }
@@ -207,6 +207,7 @@ div.hero {
     justify-self: center;
     text-align: center;
     font-size:x-large;
+    color: var(--secondary-color);
 }
 
 footer {
@@ -219,6 +220,9 @@ footer {
 	align-items: center;
 	border-bottom: 1px solid #ccc;
 	width: 100%;
+}
+footer p{
+    color: white;
 }
 
 /*social links and nav links*/
