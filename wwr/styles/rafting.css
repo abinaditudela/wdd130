@@ -392,7 +392,7 @@ b {
 }
 
 .form_contents input[type="submit"]:focus {
-  background-color: var(secondary-color);
+  background-color: var(--secondary-color);
   border-color: transparent !important;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
     rgba(24, 23, 23, 0.3) 0px 18px 36px -18px inset;
@@ -439,7 +439,9 @@ b {
     font-size:x-large;
     color: var(--primary-color);
 }
-.team figcaption{
+.team figcaption, .team p{
     text-align: center;
     justify-content: center;
+    padding: 0;
+    color: var(--primary-color);
 }
