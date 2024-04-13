@@ -23,7 +23,7 @@
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
-    padding: 10px;
+    padding: 0px;
 }
 
 
@@ -342,7 +342,7 @@ legend label{
     font-size: small;
 }
 b {
-    color: #0D71A3;
+    color: #B4DFEE;
 }
 .contactform p{
     padding: 0;
@@ -445,3 +445,95 @@ b {
     padding: 0;
     color: var(--primary-color);
 }
+
+.home_hero{
+    position: relative;
+}
+.heroh1{
+    background-color: rgba(0, 0, 0, 0.25);
+    top: 3rem;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    color: var(--accent1-color);
+}
+.home_hero p{
+    background-color: rgba(0, 0, 0, 0.25);
+    top: 5.3rem;
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+.herobtn{
+    top: 8rem;
+    position: absolute;
+    text-align: center;
+    background-color: var(--accent1-color);
+    left: 26rem;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+}
+.home_hero img{
+    object-fit: fill;
+}
+.cards{
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 2fr 2fr 2fr;
+    justify-items: center;
+    text-align: center;
+}
+.icons{
+    width: 80px !important;
+    margin-top: 0 !important;
+    margin-bottom: 5px;
+}
+.card1 img, .card3 img{
+    width: 200px;
+    margin-top: 40px;
+}
+.starting{
+    padding: 50px 100px;
+    background-color: var(--accent1-color);
+    margin-top: 3rem;
+    color: #fff;
+    position: relative;
+}
+.starting div{
+    position: absolute;
+    background-color: #0D71A3;
+    width: 400px;
+    top: 6rem;
+    right: 3em;
+    text-align: center;
+}
+.starting h2{
+    color: var(--accent1-color);
+    padding-top: 1.5em;
+
+} .starting p{
+ color: #fff;
+
+}
+.starting button{
+    background-color: #EAAA35;
+    padding: 10px 50px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.triphero{
+    height: 400px;
+    width: 100%;
+    object-fit: cover !important;
+    margin-bottom: 1rem;
+}
+
