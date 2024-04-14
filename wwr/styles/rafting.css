@@ -539,4 +539,9 @@ b {
     object-fit: cover !important;
     margin-bottom: 1rem;
 }
+.wire{
+    text-decoration: none;
+    color: #a8e4fa;
+
+}
 
